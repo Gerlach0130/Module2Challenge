@@ -154,6 +154,29 @@ body {
     width:70%;
 }
 
+.projects img:hover {
+    border:5px solid;
+    border-color:#000000;
+}
+
+.projects img:active {
+    border:none;
+}
+
+.projects a {
+    color:#000000;
+    text-decoration: none;
+}
+
+.projects a:hover {
+    color:rgb(114, 147, 253);
+}
+
+.projects a:active {
+    color:#000000;
+    text-decoration: none;
+}
+
 @media screen and (max-width: 992px) {
     .header {display:flex;
         flex-direction:column;
