@@ -8,42 +8,93 @@
 </head>
 
 <body>
-    <div class="header">
-        <h1><em>Michael Gerlach Portfolio</em></h1>
-        <div>
-            <img src="./assets/images/projectpicture.jpg" alt="profile picture" class="center">
-        </div> 
-    </div>
-    <div class="navbar">
-        <div class="link1">
-            <p><a href="#AboutMe"><strong>About Me</strong></a></p>
-        </div> 
-        <div class="link2">
-            <p><a href="#Projects"><strong>Projects</strong></a></p>
+    <div id="header">
+        <div id="name"><h1><strong>Michael Gerlach Portfolio</strong></h1>
         </div>
-        <div class="link3">
-            <p><a href="#Contact"><strong>Contact</strong></a></p>
+        <div id="navbar">
+            <div id="link">
+                <a href="#about"><strong>About Me</strong></a>
+            </div> 
+            <div id="link">
+                <a href="#projects"><strong>Projects</strong></a>
+            </div>
+            <div id="link">
+                <a href="#contact"><strong>Contact</strong></a>
+            </div>
         </div>
     </div>
-    <div id="AboutMe" class="about">
-        <h2><em>About Me</em></h2>
-        <p><strong>My name is Michael Gerlach and I am a proud father to my beautiful daughter and husband to my amazing wife. I'm a huge Nashville Predators fan and I enjoy playing video games in my spare time.
-        I have been an automotive mechanic for nearly a decade and, while it has served me well as a rewarding industry, I believe it is time to chase a career in something I enjoy.
-        I am currently a student in a web development bootcamp and this is my project portfolio I have put together for viewing.
-        </strong></p>
+    <div id="main">
+        <div id="about">
+            <h2><em>About Me</em></h2>
+            <p><strong>My name is Michael Gerlach and I am a proud father and devoted husband.
+                I have worked as an automotive mechanic for nearly a decade and am pursing a career change that better fits my desires. I have loved computers all of my life. 
+                My nearly 10 years experience as an advanced automotive diagnostics technician and lifelong interest in programming has given me the motivation and problem solving skills I need to succeed in this field, 
+                as well as teamwork, communications skills, and the ability to meet deadlines. I do very well under pressure and will get it done. 
+                I am currently a student in eDX Coding/Full Stack Web Development Bootcamp and this is my project portfolio I have put together for viewing. 
+                I am graduating in April 2024.
+            </strong></p>
+        </div>
+        <div id="projects">
+            <h2><em>Projects</em></h2>
+            <div id="container">
+                <div id="project">
+                    <p><strong><a href="https://github.com/psiko23/What-am-I-watching-tonight">What Am I<br>Watching Tonight?</a></strong></p>
+                    <p><strong>HTML/CSS<br>JS/API</strong></p>
+                    <img src="/assets/images/groupprojectSS.png">
+                </div>
+                <div id="project">
+                    <p><strong><a href="https://github.com/Gerlach0130/express-note-taker">Express Note Taker</a></strong></p>
+                    <p><strong>Node/Express</Express></strong></p>
+                    <img src="/assets/images/expressSS.png">
+                </div>
+                <div id="project">
+                    <p><strong><a href="https://github.com/Gerlach0130/password-generator-app">Password Generator</a></strong></p>
+                    <p><strong>HTML/CSS/JS</Express></strong></p>
+                    <img src="/assets/images/passwordappSS.png">
+                </div>
+                <div id="project">
+                    <p><strong><a href="https://github.com/Gerlach0130/work-day-scheduler">Work Day Scheduler</a></strong></p>
+                    <p><strong>HTML/CSS/JS</Express></strong></p>
+                    <img src="/assets/images/dayplannerSS.png">
+                </div>
+                <div id="project">
+                    <p><strong><a href="https://github.com/Gerlach0130/to-dye-for">To Dye For</a></strong></p>
+                    <p><strong>HTML/CSS/JS<br>Node/Express/MySQL</Express></strong></p>
+                    <img src="/assets/images/todyeforSS.png">
+                </div>
+                <div id="project">
+                    <p><strong><a href="https://github.com/Gerlach0130/javascript-quiz-app">JavaScript Quiz App</a></strong></p>
+                    <p><strong>HTML/CSS<br>JS/API</strong></p>
+                    <img src="/assets/images/javascriptquizSS.png">
+                </div>
+                <div id="project">
+                    <p><strong><a href="https://github.com/Gerlach0130/node-readme-generator">README.md Generator</a></strong></p>
+                    <p><strong>Node/Inquirer</strong></p>
+                    <img src="/assets/images/readmeSS.jpg">
+                </div>
+                <div id="project">
+                    <p><strong><a href="https://github.com/Gerlach0130/svg-logo-generator">SVG Logo Generator</a></strong></p>
+                    <p><strong>Node/Inquirer<br>OOP</strong></p>
+                    <img src="/assets/images/logoexample1.svg">
+                </div>
+                <div id="project">
+                    <p><strong><a href="https://github.com/Gerlach0130/cms-employee-tracker">CMS Employee Tracker</a></strong></p>
+                    <p><strong>Node/Inquirer<br>MySQL</strong></p>
+                    <img src="/assets/images/mysql.png">
+                </div>
+                <div id="project">
+                    <p><strong><a href="https://github.com/Gerlach0130/weather-forecast-app">Weather Forecast App</a></strong></p>
+                    <p><strong>HTML/CSS<br>JS/API</strong></p>
+                    <img src="/assets/images/weatherdashboard.png">
+                </div>
+            </div>
+        </div>
+        <div id="contact">
+            <h2><em>Contact</em></h2>
+            <p><strong>Email: mgerlach0130@gmail.com  |  
+                       Phone: 615-714-9264  |  
+                       <a href="https://www.Github.com/Gerlach0130">Github</a>  |  
+                       <a href="www.linkedin.com/in/michael-gerlach-4b58a9126">Linkedin</a>
+        </div>
     </div>
-    <div id="Projects" class="projects">
-        <h2><em>Projects</em></h2>
-        <p><strong><a href="https://gerlach0130.github.io/prework-study/">Prework Study Guide</a></strong></p>
-        <p><strong><a href="https://github.com/Gerlach0130/prework-study">Github Repository</a></strong></p>
-        <a href="https://gerlach0130.github.io/prework-study/"><img src="./assets/images/preworkstudyguide.png" alt="prework study guide sample image"></a>
-        <p><strong><a href="https://gerlach0130.github.io/Module1Challenge/">Horiseon</a></strong></p>
-        <p><strong><a href="https://github.com/Gerlach0130/Module1Challenge">Github Repository</a></strong></p>
-        <a href="https://gerlach0130.github.io/Module1Challenge/"><img src="./assets/images/horiseon.png" alt="module 1 challenge sample image"></a>
-    </div>
-    <div id="Contact" class="contact">
-        <h2><em>Contact</em></h2>
-        <p><strong>Email: mgerlach0130@gmail.com  |  Phone: 615-714-9264</strong></p>
-    </div>
-   
-</body>        
+</body>    
