@@ -83,7 +83,7 @@ body {
     border-radius: 20px;
     justify-content: space-between;
     padding: 10px;
-    background-image: url(./assets/images/headerbackground.jpg);
+    background-image: url(assets/images/headerbackground.jpg);
     background-size: cover;
 }
 
