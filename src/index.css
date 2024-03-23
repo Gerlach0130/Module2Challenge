@@ -1,5 +1,7 @@
 * {
     -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     background-color: #757083;
     color: black;
     font-family: sans-serif;
