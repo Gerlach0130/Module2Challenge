@@ -30,7 +30,6 @@ img {
 }
 
 button {
-    background-color: #dcdcdd;
     border-color: #012A36;
     border-style: solid;
     border-radius: 10px;
@@ -38,7 +37,7 @@ button {
     font-size: 40px;
     margin: 10px;
     -webkit-appearance: none;
-    -webkit-border-radius: 0;
+    background-image: linear-gradient(#dcdcdd, #dcdcdd);
 }
 
 a {
