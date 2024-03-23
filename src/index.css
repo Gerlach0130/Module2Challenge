@@ -38,8 +38,7 @@ button {
     font-size: 40px;
     margin: 10px;
     -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
+    opacity: 1;
 }
 
 a {
