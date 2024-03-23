@@ -1,9 +1,3 @@
-input {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-}
-
 * {
     background-color: #757083;
     color: black;
@@ -43,6 +37,9 @@ button {
     box-shadow: #012A36 5px 5px 15px 5px;
     font-size: 40px;
     margin: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 a {
