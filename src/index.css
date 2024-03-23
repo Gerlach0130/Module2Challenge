@@ -185,6 +185,26 @@ a:active, button:active {
         font-size: 40px;
         margin: 10px;
     }
+
+    .navlinks {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #dcdcdd;
+        border-radius: 40px;
+        border-style: solid;
+        border-color: #012A36;
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .navbar {
+        background-color: #757083;
+        margin-left: 10%;
+        margin-right: 10%;
+    }    
 }};
 
 @media screen and (max-width: 650px) {
