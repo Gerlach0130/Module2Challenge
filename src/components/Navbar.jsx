@@ -4,18 +4,18 @@ export default function Nav() {
     return (
         <nav className="navbar">
             <div className='navlinks'>
-                <button>
+                <p>
                     <Link to="/">Home</Link>
-                </button>
-                <button>
+                </p>
+                <p>
                     <Link to="/portfolio">Portfolio</Link>
-                </button>
-                <button>
+                </p>
+                <p>
                     <Link to="/contact">Contact</Link>
-                </button>
-                <button>
+                </p>
+                <p>
                     <Link to="/resume">Resume</Link>
-                </button>
+                </p>
             </div>
         </nav>
     );

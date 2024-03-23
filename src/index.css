@@ -29,7 +29,7 @@ img {
     margin: 10px;
 }
 
-button {
+.navlinks p {
     background-color: #dcdcdd;
     border-color: #012A36;
     border-style: solid;
@@ -37,6 +37,11 @@ button {
     box-shadow: #012A36 5px 5px 15px 5px;
     font-size: 40px;
     margin: 10px;
+    padding: 5px;
+}
+
+.navlinks a {
+    border-radius: 10px;
 }
 
 a {
@@ -44,12 +49,12 @@ a {
     text-decoration: none;
 }
 
-a:hover, button:hover {
+a:hover, .navlinks p:hover {
     background-color: #012A36;
     color: #dcdcdd;
 }
 
-a:active, button:active {
+a:active, .navlinks p:active {
     background-color: #dcdcdd;
     color: black;
 }
@@ -200,17 +205,4 @@ a:active, button:active {
         height: 40px;
         width: 40px;
     }
-}
-
-@media not all and (min-resolution:.001dpcm)
-{ @supports (-webkit-appearance:none) and (stroke-color:transparent) {
-    button {
-        background-color: #dcdcdd;
-        border-color: #012A36;
-        border-style: solid;
-        border-radius: 10px;
-        box-shadow: #012A36 5px 5px 15px 5px;
-        font-size: 40px;
-        margin: 10px;
-    }
-}};
+};
