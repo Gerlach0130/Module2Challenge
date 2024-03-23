@@ -1,7 +1,4 @@
 * {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
     background-color: #757083;
     color: black;
     font-family: sans-serif;
@@ -174,39 +171,6 @@ a:active, button:active {
     width: 50px;
 }
 
-@media not all and (min-resolution:.001dpcm)
-{ @supports (-webkit-appearance:none) and (stroke-color:transparent) {
-    button {
-        background-color: #dcdcdd;
-        border-color: #012A36;
-        border-style: solid;
-        border-radius: 10px;
-        box-shadow: #012A36 5px 5px 15px 5px;
-        font-size: 40px;
-        margin: 10px;
-    }
-
-    .navlinks {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-between;
-        background-color: #dcdcdd;
-        border-radius: 40px;
-        border-style: solid;
-        border-color: #012A36;
-        padding: 20px;
-        margin: 10px;
-    }
-
-    .navbar {
-        background-color: #757083;
-        margin-left: 10%;
-        margin-right: 10%;
-    }    
-}};
-
 @media screen and (max-width: 650px) {
     .navlinks {
         display: flex;
@@ -237,3 +201,16 @@ a:active, button:active {
         width: 40px;
     }
 }
+
+@media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) and (stroke-color:transparent) {
+    button {
+        background-color: #dcdcdd;
+        border-color: #012A36;
+        border-style: solid;
+        border-radius: 10px;
+        box-shadow: #012A36 5px 5px 15px 5px;
+        font-size: 40px;
+        margin: 10px;
+    }
+}};
