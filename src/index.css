@@ -117,35 +117,35 @@ a:active, button:active {
 }
 
 .carousel1 {
-    background-image: url('./images/tabletopties-img.png');
+    background-image: url(/public/images/tabletopties-img.png);
     background-size: 100% 100%;
     text-align: right;
 }
 
 .carousel2 {
-    background-image: url('./images/work-day-scheduler-img.png');
+    background-image: url(/public/images/work-day-scheduler-img.png);
     background-size: 100% 100%;
     text-align: right;
 }
 
 .carousel3 {
-    background-image: url('./images/mysql-img.png');
+    background-image: url(/public/images/mysql-img.png);
     background-size: 100% 100%;
 }
 
 .carousel4 {
-    background-image: url('./images/svg-logo-img.svg');
+    background-image: url(/public/images/svg-logo-img.svg);
     background-size: 100% 100%;
 }
 
 .carousel5 {
-    background-image: url('./images/mongodb-img.png');
+    background-image: url(/public/images/mongodb-img.png);
     background-size: 100% 100%;
     text-align: right;
 }
 
 .carousel6 {
-    background-image: url('./images/readme-img.svg');
+    background-image: url(/public/images/readme-img.svg);
     background-size: 100% 100%;
 }
 
