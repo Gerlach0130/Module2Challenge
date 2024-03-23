@@ -1,9 +1,171 @@
 * {
-    background-color: black;
-    color: white;
+    background-color: #757083;
+    color: black;
+    font-family: sans-serif;
 }
 
 img {
     height: 100px;
     width: 100px;
+}
+
+.navbar {
+    padding: 20px;
+    background-color: #dcdcdd;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 40px;
+    border-style: solid;
+    border-color: #012A36;
+}
+
+.navlinks {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #dcdcdd;
+}
+
+button {
+    background-color: #dcdcdd;
+    border-color: #012A36;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: #012A36 5px 5px 15px 5px;
+    font-size: 40px;
+    margin: 10px;
+}
+
+a {
+    background-color: #dcdcdd;
+    text-decoration: none;
+}
+
+a:hover, button:hover {
+    background-color: #012A36;
+    color: #dcdcdd;
+}
+
+a:active, button:active {
+    background-color: #dcdcdd;
+    color: black;
+}
+
+.main-header {
+    color: #dcdcdd;
+    text-align: center;
+    font-size: 25px;
+}
+
+.about-para {
+    text-align: center;
+    font-size: 20px;
+}
+
+@media (max-width: 650px) {
+    .navlinks {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.profile-pic {
+    height: 200px;
+    width: 200px;
+}
+
+.contact-para {
+    text-align: center;
+    font-size: 20px;
+}
+
+.resumeContainer {
+    text-align: center;
+    font-size: 20px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.portfolio-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-slider {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:#757083;
+    font-weight: bold;
+    font-size: 20px;
+    width: 50%;
+}
+
+.carousel1 {
+    background-image: url('images/tabletopties-img.png');
+    background-size: 100% 100%;
+    text-align: right;
+}
+
+.carousel2 {
+    background-image: url('images/work-day-scheduler-img.png');
+    background-size: 100% 100%;
+    text-align: right;
+}
+
+.carousel3 {
+    background-image: url('images/mysql-img.png');
+    background-size: 100% 100%;
+}
+
+.carousel4 {
+    background-image: url('images/svg-logo-img.svg');
+    background-size: 100% 100%;
+}
+
+.carousel5 {
+    background-image: url('images/mongodb-img.png');
+    background-size: 100% 100%;
+    text-align: right;
+}
+
+.carousel6 {
+    background-image: url('images/readme-img.svg');
+    background-size: 100% 100%;
+}
+
+.github-logo-project, .redirect-logo-project {
+    height: 50px;
+    width: 50px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container a {
+    margin: 20px;
+}
+
+.footer-container img {
+    height: 50px;
+    width: 50px;
 }

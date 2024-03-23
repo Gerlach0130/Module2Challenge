@@ -6,15 +6,14 @@ export default function Footer() {
 
     return (
         <footer className="footer-container">
-            <p>Footer</p>
             <a href={githubUrl} target="_blank" rel="noopener noreferrer">
-                
+                <img src='/images/github-logo.png'></img>
             </a>
             <a href={linkedinUrl} target="_blank" rel="noopener noreferrer">
-                
+                <img src='/images/linkedin-logo.webp'></img>
             </a>
             <a href={slackUrl} target="_blank" rel="noopener noreferrer">
-                
+                <img src='/images/slack-icon.png'></img>
             </a>
         </footer>
     );

@@ -4,21 +4,19 @@ export default function Nav() {
     return (
         <nav className="navbar">
             <div className="navbar-container">
-                <div>
-                    <ul className='navlinks'>
-                        <li>
-                            <Link to="/">Home</Link>
-                        </li>
-                        <li>
-                            <Link to="/portfolio">Portfolio</Link>
-                        </li>
-                        <li>
-                            <Link to="/contact">Contact Me</Link>
-                        </li>
-                        <li>
-                            <Link to="/resume">Resume</Link>
-                        </li>
-                    </ul>
+                <div className='navlinks'>
+                    <button>
+                        <Link to="/">Home</Link>
+                    </button>
+                    <button>
+                        <Link to="/portfolio">Portfolio</Link>
+                    </button>
+                    <button>
+                        <Link to="/contact">Contact</Link>
+                    </button>
+                    <button>
+                        <Link to="/resume">Resume</Link>
+                    </button>
                 </div>
             </div>
         </nav>

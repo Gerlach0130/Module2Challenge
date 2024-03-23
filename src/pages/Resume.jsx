@@ -35,9 +35,9 @@ export default function ResumePage() {
             <div className="resume">
                 <div id="skills">
                     <h3>Technical Skills</h3>
-                    <div>
+                    <div className="skills-list">
                         {technicalSkills.map((skill, index) => (
-                            <p key={index}>{skill}</p>
+                            <p className="skills-list-item" key={index}>&nbsp;{skill}&nbsp;</p>
                         ))}
                     </div>
                 </div>
@@ -58,11 +58,8 @@ export default function ResumePage() {
                 </div>
                 <div id="education">
                     <h3>Education</h3>
-                    <p>
-                        Vanderbilt Full Stack Web Development<br />
-                        Vanderbilt University - Nashville, TN
-                    </p>
-                    <p>Back to <a href="#top">Top</a></p>
+                        <p>Vanderbilt Full Stack Web Development</p>
+                        <p>Vanderbilt University - Nashville, TN</p>
                 </div>
             </div>
         </main>
