@@ -1,4 +1,5 @@
 * {
+    -webkit-appearance: none;
     background-color: #757083;
     color: black;
     font-family: sans-serif;
@@ -30,14 +31,13 @@ img {
 }
 
 button {
+    background-color: #dcdcdd;
     border-color: #012A36;
     border-style: solid;
     border-radius: 10px;
     box-shadow: #012A36 5px 5px 15px 5px;
     font-size: 40px;
     margin: 10px;
-    -webkit-appearance: none;
-    background-image: linear-gradient(#dcdcdd, #dcdcdd);
 }
 
 a {
