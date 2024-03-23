@@ -1,3 +1,5 @@
 # Project Portfolio
 
-https://gerlach0130.github.io/project-portfolio/
+Work in Progress
+
+My Resume Portfolio built using React
