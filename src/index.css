@@ -10,23 +10,23 @@ img {
 }
 
 .navbar {
-    padding: 20px;
-    background-color: #dcdcdd;
-    margin-left: 100px;
-    margin-right: 100px;
-    border-radius: 40px;
-    border-style: solid;
-    border-color: #012A36;
+    background-color: #757083;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .navlinks {
-    padding: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     background-color: #dcdcdd;
+    border-radius: 40px;
+    border-style: solid;
+    border-color: #012A36;
+    padding: 20px;
+    margin: 10px;
 }
 
 button {
@@ -63,15 +63,6 @@ a:active, button:active {
 .about-para {
     text-align: center;
     font-size: 20px;
-}
-
-@media (max-width: 650px) {
-    .navlinks {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
 }
 
 .profile-pic {
@@ -176,5 +167,37 @@ a:active, button:active {
 .carousel4 img,
 .carousel5 img,
 .carousel6 img {
-    margin: 5px;
+    height: 50px;
+    width: 50px;
+}
+
+@media screen and (max-width: 650px) {
+    .navlinks {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .custom-slider {
+        width: 95%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .carousel1 img,
+    .carousel2 img,
+    .carousel3 img,
+    .carousel4 img,
+    .carousel5 img,
+    .carousel6 img {
+        height: 40px;
+        width: 40px;
+    }
 }
